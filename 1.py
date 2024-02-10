@@ -5,8 +5,8 @@ b = int(input("Enter a second number: "))
 c = a + b
 pygame.init()
 clock = pygame.time.Clock()
-WINDOW_WIDTH = 600
-WINDOW_HEIGHT = 800
+WINDOW_WIDTH = 1920
+WINDOW_HEIGHT = 1080
 BG_COLOR = (255, 255, 255)
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 screen.fill(BG_COLOR)
